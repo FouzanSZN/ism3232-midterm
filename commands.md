@@ -150,3 +150,16 @@ d7ddd66 docs: add project README
 4e7a295 chore: add project ignore rules and dependencies```
 
 The repository currently contains five commits covering project setup, documentation, business logic, tests, and the event report. Additional documentation and verification commits will be recorded as the project is finalized.
+
+## 7. Final verification
+
+Commands:
+```bash
+pytest -v
+ruff check .
+git status --short
+
+Results:
+- All 28 tests passed.
+- Ruff reported no issues.
+- The working tree was clean before this final documentation update.
