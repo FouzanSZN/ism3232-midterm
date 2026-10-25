@@ -139,15 +139,14 @@ Output:
 Command:
 ```bash
 git log --oneline
-```
 
 Output:
 ```text
+dc356b4 docs: record terminal commands and verification
 771d802 feat: generate catering event report
 edf6978 test: cover catering business rules and boundaries
 f7c8817 feat: implement catering business rules
 d7ddd66 docs: add project README
-4e7a295 chore: add project ignore rules and dependencies
-```
+4e7a295 chore: add project ignore rules and dependencies```
 
 The repository currently contains five commits covering project setup, documentation, business logic, tests, and the event report. Additional documentation and verification commits will be recorded as the project is finalized.
