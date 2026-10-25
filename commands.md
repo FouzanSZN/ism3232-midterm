@@ -64,7 +64,7 @@ Output:
 4 directories, 8 files
 ```
 
-The `.venv` directory is hidden and therefore does not appear in this output. The `__pycache__` directories contain Python-generated cache files and are excluded from Git tracking by `.gitignore`.
+The .venv/ directory exists locally but is not tracked on GitHub because .gitignore excludes it. The __pycache__/ directories contain Python-generated cache files and are also excluded from Git tracking.
 
 ## 4. Every function and test
 
