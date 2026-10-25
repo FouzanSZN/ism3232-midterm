@@ -3,27 +3,27 @@
 
 ## 1. Building the project
 
-Command:
+The repository was cloned from GitHub, and the project directory and virtual environment were prepared for development.
+
+Commands recorded during setup:
+
 ```bash
 pwd
+git clone https://github.com/FouzanSZN/ism3232-midterm.git
+cd ism3232-midterm
+pwd
+python3 -m venv .venv
+source .venv/bin/activate
+mkdir -p tests
 ```
 
-Output:
+The final `pwd` confirmed the project directory:
+
 ```text
 /home/fouzan/ism3232-midterm
 ```
 
-Command:
-```bash
-mkdir -p tests
-```
-
-Output:
-```text
-Directory created or already exists.
-```
-
-The project directory contains the Python business rules, report program, automated tests, dependency list, and documentation. The `tests/` directory holds the automated test suite.
+The `git clone` command downloaded the existing GitHub repository, `cd` entered the project directory, `python3 -m venv .venv` created the virtual environment, and `source .venv/bin/activate` activated it. The `mkdir -p tests` command ensured that the test directory existed. Successful execution of these commands does not normally produce output for every command.
 
 ## 2. The virtual environment
 
